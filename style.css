@@ -1,0 +1,167 @@
+body{
+    background: linear-gradient(120deg, #050518 0%, #050518 50%, #031029 100%);
+    color: white;
+    font-family: Arial, sans-serif;
+    list-style: none;;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    height: 64px;
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: #050518;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.link:active {
+    color: aquamarine;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.link-items{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .signup-btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.finger-aqua{
+    color: aquamarine;
+
+}
+
+main{
+    position: relative;
+    top: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: aquamarine;
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+}
+.moto{
+    text-align: center;
+    padding: 0px 10px 30px 10px;
+}
+
+.heading2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feature-item{
+    height: 300px;
+    width: 300px;
+    border: 0.1px solid #e9f7f5;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 10px;
+    margin:20px
+}
+
+.feature-icon {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.phone-image {
+    border-radius: 20px;
+    height: 600px;
+    width: auto;
+    margin-bottom: 30px;
+}
+.phone-image:hover{
+    transform: scale(1.4);
+    transition: transform 0.2s ease-in-out;
+
+}
+.feature-card{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.card-text{
+    text-align: center;
+}
+
+
+
+.flow{
+    height: 400px;
+    width: 300px;
+    margin-left: 120px;
+    margin-right:50px;
+    justify-content: space-between;
+
+}
+.flow:hover{
+    transform: scale(1.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why img {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid aqua;
+}
+.Download{
+    padding: 20px 250px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+.brand{
+    font-size: 35px;
+}
