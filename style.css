@@ -120,15 +120,28 @@ main{
     text-align: center;
 }
 
+.flow-card{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.flow-card p {
+    font-size: 20px;
+}
+
+.flow-cards {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
 
 .flow{
-    height: 400px;
-    width: 300px;
-    margin-left: 120px;
-    margin-right:50px;
-    justify-content: space-between;
-
+    height: 120px;
 }
 .flow:hover{
     transform: scale(1.4);
@@ -164,4 +177,158 @@ main{
 }
 .brand{
     font-size: 35px;
+}
+
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #7fffe1;
+}
+
+.nav-links a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a.active {
+    color: #7fffe1;
+}
+
+.user-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-img {
+    margin-top: 100px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #7fffe1;
+}
+
+.username {
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+
+.wallet-card {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(127, 255, 225, 0.3);
+    background: rgba(127, 255, 225, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-title {
+    font-size: 30px;
+    color: #7fffe1;
+}
+
+.wallet-amount {
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+.send-btn {
+    background: #7fffe1;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 14px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.send-btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.transactions-title {
+    margin-left: 10%;
+    margin-top: 40px;
+    color: #7fffe1;
+    font-size: 35px;
+}
+
+
+.transaction {
+    width: 80%;
+    margin: 18px auto;
+    padding: 15px 25px;
+    border-radius: 18px;
+    border: 1px solid rgba(127, 255, 225, 0.2);
+    background: rgba(127, 255, 225, 0.04);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.transaction:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.tx-left {
+    display: flex;
+    align-items: center;
+}
+
+.tx-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #7fffe1;
+    opacity: 0.15;
+}
+
+
+.user-icon {
+    background: rgba(127, 255, 225, 0.3);
+}
+
+.shop-icon {
+    background: rgba(127, 255, 225, 0.3);
+}
+
+.bill-icon {
+    background: rgba(127, 255, 225, 0.3);
+}
+
+.tx-left h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.tx-left p {
+    margin: 3px 0 0 0;
+    color: #b8c6d1;
+}
+
+.tx-amount {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plus {
+    color: #4affc9;
+}
+
+.minus {
+    color: #ff4e4e;
 }
